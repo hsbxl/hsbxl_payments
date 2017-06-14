@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains hsbxl_payments.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function hsbxl_payments_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the hsbxl_payments module.
+    case 'help.page.hsbxl_payments':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Custom functionality for HSBXL membership payments') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function hsbxl_payments_theme() {
+  return [
+    'hsbxl_payments' => [
+      'render element' => 'children',
+    ],
+  ];
+}
