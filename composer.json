@@ -1,14 +1,14 @@
 {
-  "name": "drupal/hsbxl_payments",
+  "name": "hsbxl/hsbxl_payments",
   "type": "drupal-module",
   "description": "Custom functionality for HSBXL membership payments",
   "keywords": ["Drupal"],
   "license": "GPL-2.0+",
-  "homepage": "https://www.drupal.org/project/hsbxl_payments",
+  "homepage": "https://github.com/hsbxl/hsbxl_payments",
   "minimum-stability": "dev",
   "support": {
-    "issues": "https://www.drupal.org/project/issues/hsbxl_payments",
-    "source": "http://cgit.drupalcode.org/hsbxl_payments"
+    "issues": "https://github.com/hsbxl/hsbxl_payments/issues",
+    "source": "https://github.com/hsbxl/hsbxl_payments"
   },
   "require": { }
 }
