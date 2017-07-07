@@ -1,6 +1,6 @@
 {
   "name": "hsbxl/hsbxl_payments",
-  "type": "drupal-module",
+  "type": "drupal-custom-module",
   "description": "Custom functionality for HSBXL membership payments",
   "keywords": ["Drupal"],
   "license": "GPL-2.0+",
