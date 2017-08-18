@@ -3,6 +3,9 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - field.field.node.payment.field_payment_amount
+    - field.field.node.payment.field_payment_member
+    - field.field.node.payment.field_payment_membership_month
     - node.type.payment
   module:
     - user
@@ -14,4 +17,7 @@ content:
   links:
     weight: 100
     region: content
-hidden: {  }
+hidden:
+  field_payment_amount: true
+  field_payment_member: true
+  field_payment_membership_month: true
