@@ -1,5 +1,12 @@
-name: HSBXL payments
+name: 'HSBXL payments'
 type: module
-description: Custom functionality for HSBXL membership payments
+description: 'Custom functionality for HSBXL membership payments'
 core: 8.x
 package: HSBXL
+dependencies:
+  - datetime
+  - field
+  - menu_ui
+  - node
+  - path
+  - user
